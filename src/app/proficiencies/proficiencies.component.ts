@@ -19,7 +19,8 @@ export interface Tile {
 })
 export class ProficienciesComponent implements OnInit {
 
-  color: ThemePalette = 'accent';
+  color: ThemePalette = 'warn';
+  color2: ThemePalette = 'accent';
   mode: ProgressSpinnerMode = 'determinate';
   value = 50;
 
